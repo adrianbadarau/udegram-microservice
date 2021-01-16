@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="42bcf105-22eb-4432-be14-adc40bdd55ff" name="Default Changelist" comment="created dockerfile for the FE">
+      <change afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/docker/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/docker/docker-compose-build.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/docker/docker-compose.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/docker/nginx.conf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/reverse_proxy/deployment.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/reverse_proxy/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/deployment/service.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/udagram-feed/Dockerfile" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/udagram-user/.dockerignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/udagram-user/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/aws.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/src/aws.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/config/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/src/config/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/controllers/v0/index.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/controllers/v0/index.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/controllers/v0/model.index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/controllers/v0/model.index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/controllers/v0/users/models/User.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/controllers/v0/users/models/User.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/controllers/v0/users/routes/auth.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/controllers/v0/users/routes/auth.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/controllers/v0/users/routes/user.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/controllers/v0/users/routes/user.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/migrations/20190328-create-user.js" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/migrations/20190328-create-user.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/sequelize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/src/sequelize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api-user-micro/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/.dockerignore" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-frontend/.dockerignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/.eslintrc.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/.eslintrc.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/.npmrc" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/.npmrc" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/Dockerfile" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/mock/xander0.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/mock/xander0.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/mock/xander1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/mock/xander1.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/mock/xander2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/mock/xander2.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/aws.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/aws.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/config/config.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/config/config.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/controllers/v0/feed/models/FeedItem.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/src/controllers/v0/feed/models/FeedItem.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/controllers/v0/feed/routes/feed.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/src/controllers/v0/feed/routes/feed.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/controllers/v0/index.router.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/src/controllers/v0/index.router.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/controllers/v0/model.index.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/src/controllers/v0/model.index.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/migrations/20190325-create-feed-item.js" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/src/migrations/20190325-create-feed-item.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/sequelize.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/src/sequelize.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/src/server.ts" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-feed/src/server.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/tsconfig.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-api/tslint.json" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-user/tslint.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/udagram-frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-frontend/Dockerfile" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$/.." value="develop" />
+      </map>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="ProjectId" id="1lQdBJEYRZH3ilP1UMvVQciLlZY" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="TEXT" />
+    <property name="dart.analysis.tool.window.visible" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/kubernetes" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="C:\Users\adiba\code\udacity\cloud-developer\nd9990-c3-microservices-exercises\project\udagram-frontend\node_modules\typescript\lib" />
+    <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\adiba\code\udacity\cloud-developer\nd9990-c3-microservices-exercises\project\deployment\docker" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\adiba\code\udacity\cloud-developer\nd9990-c3-microservices-exercises\project\kubernetes" />
+      <recent name="C:\Users\adiba\code\udacity\cloud-developer\nd9990-c3-microservices-exercises\project\udagram-frontend" />
+      <recent name="C:\Users\adiba\code\udacity\cloud-developer\nd9990-c3-microservices-exercises\project\udagram-api-user-micro" />
+      <recent name="C:\Users\adiba\code\udacity\cloud-developer\nd9990-c3-microservices-exercises\project" />
+    </key>
+  </component>
+  <component name="RunManager" selected="npm.dev(user)">
+    <configuration name="dev (feed)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/udagram-api/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="POSTGRES_DATABASE" value="postgres" />
+        <env name="POSTGRES_HOST" value="localhost" />
+        <env name="POSTGRES_PASSWORD" value="mysecretpassword" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="dev(user)" type="js.build_tools.npm">
+      <package-json value="$PROJECT_DIR$/udagram-api-user-micro/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="dev" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs>
+        <env name="POSTGRES_DATABASE" value="postgres" />
+        <env name="POSTGRES_HOST" value="localhost" />
+        <env name="POSTGRES_PASSWORD" value="mysecretpassword" />
+      </envs>
+      <method v="2" />
+    </configuration>
+    <configuration name="start" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/udagram-frontend/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="start" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="npm.dev(user)" />
+      <item itemvalue="npm.dev (feed)" />
+      <item itemvalue="npm.start" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.start" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="42bcf105-22eb-4432-be14-adc40bdd55ff" name="Default Changelist" comment="" />
+      <created>1607533112570</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1607533112570</updated>
+      <workItem from="1607533113811" duration="82000" />
+      <workItem from="1607593630031" duration="5545000" />
+      <workItem from="1608538367992" duration="15000" />
+      <workItem from="1609771169235" duration="898000" />
+      <workItem from="1609772087902" duration="2616000" />
+      <workItem from="1610478998557" duration="7341000" />
+      <workItem from="1610564421648" duration="1092000" />
+      <workItem from="1610742099665" duration="3815000" />
+      <workItem from="1610797912887" duration="4141000" />
+      <workItem from="1610802110259" duration="2449000" />
+    </task>
+    <task id="LOCAL-00001" summary="finished refactoring the user microservice">
+      <created>1607604535233</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1607604535233</updated>
+    </task>
+    <task id="LOCAL-00002" summary="refactored all code to use microservice architecture">
+      <created>1609776770758</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1609776770758</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updated dockerfile for both microservices">
+      <created>1610566753935</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1610566753935</updated>
+    </task>
+    <task id="LOCAL-00004" summary="created dockerfile for the FE">
+      <created>1610745648599</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1610745648599</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="finished refactoring the user microservice" />
+    <MESSAGE value="refactored all code to use microservice architecture" />
+    <MESSAGE value="updated dockerfile for both microservices" />
+    <MESSAGE value="created dockerfile for the FE" />
+    <option name="LAST_COMMIT_MESSAGE" value="created dockerfile for the FE" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="1627" y="289" width="1312" height="532" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610485506933">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1627" y="289" width="1092" height="715" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1610485506933" />
+    <state x="226" y="143" width="1312" height="532" key="#com.intellij.execution.impl.EditConfigurationsDialog/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609773158314" />
+    <state x="1083" y="503" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1610798297440">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1083" y="503" key="#com.intellij.fileTypes.FileTypeChooser/0.0.3440.1400@0.0.3440.1400" timestamp="1610798297440" />
+    <state x="1139" y="294" width="519" height="500" key="EnvironmentVariablesDialog" timestamp="1609773156932">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2040" y="396" width="519" height="500" key="EnvironmentVariablesDialog/0.0.3440.1400@0.0.3440.1400" timestamp="1607604467063" />
+    <state x="1139" y="294" key="EnvironmentVariablesDialog/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609773156932" />
+    <state x="1115" y="471" key="FileChooserDialogImpl" timestamp="1607603489093">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="1115" y="471" key="FileChooserDialogImpl/0.0.3440.1400@0.0.3440.1400" timestamp="1607603489093" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom" timestamp="1609777056653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1434" height="399" key="GridCell.Tab.0.bottom/0.0.3440.1400@0.0.3440.1400" timestamp="1607619811578" />
+    <state width="1899" height="281" key="GridCell.Tab.0.bottom/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056653" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center" timestamp="1609777056653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1434" height="399" key="GridCell.Tab.0.center/0.0.3440.1400@0.0.3440.1400" timestamp="1607619811578" />
+    <state width="1899" height="281" key="GridCell.Tab.0.center/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056653" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left" timestamp="1609777056653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1434" height="399" key="GridCell.Tab.0.left/0.0.3440.1400@0.0.3440.1400" timestamp="1607619811578" />
+    <state width="1899" height="281" key="GridCell.Tab.0.left/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056653" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right" timestamp="1609777056653">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1434" height="399" key="GridCell.Tab.0.right/0.0.3440.1400@0.0.3440.1400" timestamp="1607619811578" />
+    <state width="1899" height="281" key="GridCell.Tab.0.right/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056653" />
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.bottom/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.1.center" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.center/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.1.left" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.left/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.1.right" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.1.right/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.bottom/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.2.center" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.center/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.2.left" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.left/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.2.right" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.2.right/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom" timestamp="1609777056645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.bottom/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056645" />
+    <state width="1899" height="348" key="GridCell.Tab.3.center" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.center/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.3.left" timestamp="1609777056644">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.left/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056644" />
+    <state width="1899" height="348" key="GridCell.Tab.3.right" timestamp="1609777056645">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1899" height="348" key="GridCell.Tab.3.right/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609777056645" />
+    <state width="498" height="446" key="SwitcherDM" timestamp="1610742214591">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state width="498" height="446" key="SwitcherDM/0.0.3440.1400@0.0.3440.1400" timestamp="1610742214591" />
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2" timestamp="1610745650968">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1610745650968" />
+    <state x="517" y="325" key="Vcs.Push.Dialog.v2/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609776773336" />
+    <state x="998" y="322" key="search.everywhere.popup" timestamp="1610802320143">
+      <screen x="0" y="0" width="3440" height="1400" />
+    </state>
+    <state x="998" y="322" key="search.everywhere.popup/0.0.3440.1400@0.0.3440.1400" timestamp="1610802320143" />
+  </component>
+</project>
