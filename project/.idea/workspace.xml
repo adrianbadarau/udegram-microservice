@@ -19,35 +19,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="42bcf105-22eb-4432-be14-adc40bdd55ff" name="Default Changelist" comment="created dockerfile for the FE">
-      <change afterPath="$PROJECT_DIR$/../.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/config/aws-secret.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/config/env-configmap.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/config/env-secret.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/deployment/backend-feed-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/deployment/backend-user-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/deployment/frontend-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/deployment/reverseproxy-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/service/backend-feed-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/service/backend-user-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/service/frontend-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/service/reverseproxy-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/test/backend-feed-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/test/backend-feed-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/test/backend-user-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/test/backend-user-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/test/frontend-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/test/frontend-service.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/test/reverseproxy-deployment.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/deployment/kubernetes/test/reverseproxy-service.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/deployment.yaml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/docker/docker-compose.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/deployment/docker/docker-compose.yaml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/deployment/service.yaml" beforeDir="false" />
+    <list default="true" id="42bcf105-22eb-4432-be14-adc40bdd55ff" name="Default Changelist" comment="eod commit">
       <change beforePath="$PROJECT_DIR$/set_env.sh" beforeDir="false" afterPath="$PROJECT_DIR$/set_env.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/udagram-frontend/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/udagram-frontend/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +169,14 @@
       <option name="project" value="LOCAL" />
       <updated>1610745648599</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="eod commit">
+      <created>1610900444467</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1610900444467</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -219,7 +199,8 @@
     <MESSAGE value="refactored all code to use microservice architecture" />
     <MESSAGE value="updated dockerfile for both microservices" />
     <MESSAGE value="created dockerfile for the FE" />
-    <option name="LAST_COMMIT_MESSAGE" value="created dockerfile for the FE" />
+    <MESSAGE value="eod commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="eod commit" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1627" y="289" width="1312" height="532" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1610485506933">
@@ -312,10 +293,10 @@
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
     <state width="498" height="446" key="SwitcherDM/0.0.3440.1400@0.0.3440.1400" timestamp="1610742214591" />
-    <state x="927" y="437" key="Vcs.Push.Dialog.v2" timestamp="1610885103740">
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2" timestamp="1610900454569">
       <screen x="0" y="0" width="3440" height="1400" />
     </state>
-    <state x="927" y="437" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1610885103740" />
+    <state x="927" y="437" key="Vcs.Push.Dialog.v2/0.0.3440.1400@0.0.3440.1400" timestamp="1610900454569" />
     <state x="517" y="325" key="Vcs.Push.Dialog.v2/1920.-353.2048.1120/0.0.1920.1040@0.0.1920.1040" timestamp="1609776773336" />
     <state x="1730" y="619" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1610885290323">
       <screen x="0" y="0" width="3440" height="1400" />
